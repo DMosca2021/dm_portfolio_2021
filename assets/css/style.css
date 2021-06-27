@@ -1,10 +1,10 @@
-/* Universal Selector */
+/* Universal Selector
 * {
     margin:0;
     padding:0;  
   }
   
-  /* Element Selectors */
+  Element Selectors
   body {
     position: relative;
     font-family: "Goudy Bookletter 1911", sans-serif;
@@ -71,7 +71,7 @@
   }
   
   form {
-    /* Center the form on the page */
+    Center the form on the page
     margin: 0 auto;
     width: 500px;
     padding: 10px;
@@ -103,7 +103,7 @@
     color: #FDF8F5;
   }
    
-  /* Class Selectors */
+  Class Selectors
   .text-center {
     text-align: center;
   }
@@ -111,4 +111,4 @@
   .text-right {
     text-align: right;
   }
-  
+   */

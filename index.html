@@ -4,61 +4,94 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-  <title>My Landing Page</title>
+  <title>DevinMosca2021</title>
 </head>
 
 <body>
   <header>
-    <nav class="text-right">
-      <ul>
-        <li> <a href="https://github.com/">Github</a></li>
-        <li> <a href="#">Portfolio</a></li>
-        <li> <a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Devin Mosca</h1>
+      <nav>
+        <ul>
+          <li> <a href="https://github.com/">Github</a></li>
+          <li> <a href="#">Portfolio</a></li>
+          <li> <a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
   </header>
 
+  <figure>
+    <img src="./assets/images/image-1.png" alt="Graphic with Coming Soon text">
+    <figcaption class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
+  </figure>
+
   <main>
-    <h1 class="text-center">My Projects</h1>
-    <figure>
-      <img src="./assets/images/image-1.png" alt="Graphic with Coming Soon text">
-      <figcaption class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
-    </figure>
-    <section id="contact">
-      <h2 class="text-center">Contact Me</h2>
-      <form>
-        <p>
-          <label for="username">Name:</label>
-          <!-- This element has a CSS declaration of `cursor: text` -->
-          <input id="username" type="text" placeholder="First Last" />
-        </p>
-        <p>
-          <label  for="email">E-mail:</label>
-          <input id="email" type="text" placeholder="me@example.com" />
-        </p>
-        <p>
-          <label for="expertise">Response Urgancy:</label>
-          <!-- This element has a CSS declaration of `appearance: menulist` -->
-          <select id="expertise">
-            <option>Take your time</option>
-            <option selected>ASAP</option>
-            <option>Where the #@$! are you!</option>
-          </select>
-        </p>
-        <p>
-          <label for="comment">Comment:</label>
-          <textarea id="comment" placeholder="Great article!"></textarea>
-        </p>
-        
-        <p>
-          <!-- When this element is in a :focus state, the CSS `outline` property is applied -->
-          <button>Submit</button>
-        </p>
-      </form>
+    <section>
+      <h2 class="text-center">My Projects</h2>
+        <ul>
+            <li>
+                My Websites
+            </li>
+            <li>
+                My Web Apps
+            </li>
+            <li>
+                Coming Soon!
+            </li>
+        </ul>
     </section>
+
+    <aside>
+      <h2>About Me</h2>
+        <article>
+          <h4>Career History</h4>
+            <p>Place holder</p>
+        </article>
+        <article>
+          <h4>Personal Interests</h4>
+            <p>Place Holder</p>
+        </article>
+        <article>
+          <h4>Future goals</h4>
+            <p>Place Holder</p>
+        </article>
+    </aside>
+    
+    
   </main>
 
   <footer class="text-center">
+    <section id="contact">
+        <h3 class="text-center">Contact Me</h3>
+        <form>
+          <p>
+            <label for="username">Name:</label>
+            <!-- This element has a CSS declaration of `cursor: text` -->
+            <input id="username" type="text" placeholder="First Last" />
+          </p>
+          <p>
+            <label  for="email">E-mail:</label>
+            <input id="email" type="text" placeholder="me@example.com" />
+          </p>
+          <p>
+            <label for="expertise">Response Urgancy:</label>
+            <!-- This element has a CSS declaration of `appearance: menulist` -->
+            <select id="expertise">
+              <option>Take your time</option>
+              <option selected>ASAP</option>
+              <option>Where the #@$! are you!</option>
+            </select>
+          </p>
+          <p>
+            <label for="comment">Comment:</label>
+            <textarea id="comment" placeholder="Great article!"></textarea>
+          </p>
+          
+          <p>
+            <!-- When this element is in a :focus state, the CSS `outline` property is applied -->
+            <button>Submit</button>
+          </p>
+        </form>
+      </section>
     © 2021 My New Website Productions 
   </footer>
     
