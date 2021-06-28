@@ -40,15 +40,31 @@ a {
   }
 /* end site nav */
 
-img {
+figure {
+    position: relative;
     display: block;
     margin-left: 20px;
     padding: 5px;
   }
 
   .profpic {
+      position: absolute;
+      bottom: 0;
+      left: 0;
       border-radius: 25px;
       height: 500px;
+      border: 5px solid black;
+      margin-bottom: 25px;
+      margin-left: 25px;
+  }
+
+  .natpic {
+      position: relative;
+      max-width: 100%;
+      height: auto;
+      opacity: .5;
+      border-radius: 5px;
+      
   }
 
 /* My projects section */
