@@ -46,23 +46,28 @@ img {
   }
 
 main {
-    height: 500px;
-    width: 75%;
-    background-color: lightgray;
+    display: flex;
 }
 
 .my-projects {
-    display: inline-block;
+    flex: 70%;
+    background-color: lightgray;
+    padding: 20px;
     margin-left: 20px;
-    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
   }
 
 aside {
+    flex: 30%;
+    background-color: #b9c6ae;
+    padding: 20px;
     margin-right: 20px;
-    float: right;
-    width: 25%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex-wrap: wrap;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
   }
 
 .career-hist h4 {
@@ -81,6 +86,16 @@ aside {
 }
 
 .intrests {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.goals h4 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.goals {
     margin-bottom: 10px;
     text-align: center;
 }
