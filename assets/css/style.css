@@ -1,11 +1,11 @@
-/* Universal Selector
+/* Universal Selector */
 * {
     margin:0;
     padding:0;  
   }
   
-  Element Selectors
-  body {
+  /* Element Selectors */
+body {
     position: relative;
     font-family: "Goudy Bookletter 1911", sans-serif;
     font-size: 20px;
@@ -13,102 +13,119 @@
     color: #4F4846;
   }
   
-  h1,
-  h2 {
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+  }
+
+h1 {
     margin: 20px;
   }
   
-  main {
-    padding: 60px 0;
+main {
+    background-color: grey;
   }
   
-  li {
-    display: inline;
+li {
+    display: inline-block;
     padding: 20px;
     text-decoration: none;
+    margin-left: 25px;
   }
   
-  a {
+a {
     text-decoration: none;
-    color: #FDF8F5;
+    color: black;
   }
   
-  header,
-  footer {
-    height: 60px;
-    width: 100%;
-    line-height: 60px;
-    background-color: #266150;
+
+  
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;   
   }
   
-  header {
-    position: fixed;
-    border-bottom: 10px solid #DDAF94;
-  }
-  
-  footer {
-    position: absolute;
-    margin-top: 0;
-    bottom: 0;
-    border-bottom: 10px solid #4F4846;
-    color: #FDF8F5;    
-  }
-  
-  figure {
+figure {
     margin-bottom: 40px;
   }
   
-  img {
+img {
     display: block;
     margin: 20px auto;
   }
   
-  section {
-    margin-bottom: 0;
-    padding: 20px 10px 40px 10px;
-    border-top: 3px solid #DDAF94;
+section {
     background-color:  #E8CEBF;
   }
   
-  form {
-    Center the form on the page
+form {
     margin: 0 auto;
     width: 500px;
-    padding: 10px;
+    padding: 5px;
     border: 5px solid #DDAF94;
     border-radius: 20px;
   }
   
-  label {
+label {
     display: inline-block;
     width: 100px;
   }
     
-  input, 
-  textarea {
+input, 
+textarea {
     box-sizing: border-box;
     width: 300px;
     border: 1px solid #4F4846;
   }
   
-  textarea {
+textarea {
     vertical-align: top;
     height: 60px;
   }
     
-  button {
+button {
     height: 40px;
     width: 120px;
     background-color: #4F4846;
     color: #FDF8F5;
   }
    
-  Class Selectors
-  .text-center {
+  /* Class Selectors */
+.text-center {
     text-align: center;
   }
   
-  .text-right {
+.text-right {
     text-align: right;
   }
-   */
+  
+nav {
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+  }
+
+h2 {
+    text-align: center;
+}
+
+
+.career-hist h4 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
