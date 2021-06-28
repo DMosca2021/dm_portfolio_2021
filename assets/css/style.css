@@ -180,8 +180,10 @@ textarea {
 .cntctbttn {
     height: 20px;
     width: 80px;
-    background-color: #4F4846;
-    color: #FDF8F5;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    border-style: none;
   }
 /* Form End */
 
