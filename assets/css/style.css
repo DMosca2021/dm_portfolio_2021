@@ -89,11 +89,12 @@ h2 {
 button {
     height: 100px;
     width: 200px;
-    background-color: #4F4846;
     color: #FDF8F5;
     border-style: ridge;
     border-width: 20px;
     border-radius: 5px;
+    background-image: url(assets\images\screenshot.png);
+    background-repeat: no-repeat;
   }
 
 /* About me sidebar part of main section */
@@ -220,4 +221,4 @@ footer {
       background-color: #8ac4ff;
     }
   }
-   */ */
+   */ 
