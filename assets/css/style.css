@@ -140,6 +140,8 @@ aside {
 
 .career-hist:hover .career-txt {
     display: block;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .intrests h4 {
@@ -159,6 +161,8 @@ aside {
 
 .intrests:hover .intrests-txt {
     display: block;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .goals h4 {
@@ -178,6 +182,8 @@ aside {
 
 .goals:hover .goals-txt {
     display: block;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px grey;
 }
 
 /* Form */
