@@ -68,7 +68,7 @@ figure {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-left: 75px;
+      margin-left: 100px;
       border-style: inset;
   }
 
@@ -90,13 +90,14 @@ h2 {
     border-bottom-left-radius: 20px;
   }
 
-button {
+.button {
     height: 100px;
     width: 200px;
-    color: #FDF8F5;
-    border-style: ridge;
-    border-width: 20px;
+    color: black;
+    border-style: outset;
+    border-width: 5px;
     border-radius: 5px;
+    border-color: gray;
   }
 
 /* About me sidebar part of main section */
