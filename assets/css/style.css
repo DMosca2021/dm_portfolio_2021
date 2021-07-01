@@ -94,6 +94,8 @@ h2 {
   font-size: 40px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 900;
+  border: 1px dashed gray;
+  border-radius: 25px;
 }
 
 .my-projects {
@@ -125,6 +127,8 @@ h3 {
   color: grey;
   font-size: 40px;
   font-weight: 900;
+  border: 1px dashed black;
+  border-radius: 25px;
 }
 
 h4 {
@@ -148,6 +152,7 @@ aside {
 .career-hist h4 {
   margin-bottom: 10px;
   text-align: center;
+  padding-bottom: 25px;
 }
 
 .career-hist {
@@ -164,12 +169,14 @@ aside {
   display: block;
   border: 1px solid black;
   box-shadow: 5px 5px 5px grey;
+  
 }
 
 /* Interests aside behavior */
 .intrests h4 {
   margin-bottom: 10px;
   text-align: center;
+  padding: 10px;
 }
 
 .intrests {
@@ -192,6 +199,7 @@ aside {
 .goals h4 {
   margin-bottom: 10px;
   text-align: center;
+  padding-top: 25px;
 }
 
 .goals {
@@ -212,12 +220,14 @@ aside {
 
 /* Form */
 h5 {
-  margin-left: 50px;
   font-size: 25px;
+  text-align: center;
 }
 
 form {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin: 0 auto;
   width: 350px;
   padding: 5px;
@@ -236,20 +246,21 @@ textarea {
   box-sizing: border-box;
   width: 200px;
   border: 1px solid #4F4846;
+  
 }
   
 textarea {
   vertical-align: top;
-  height: 30px;
 }
     
 .cntctbttn {
-  height: 20px;
+  height: 40px;
   width: 80px;
   background-color: red;
   color: black;
   font-weight: bold;
   border-style: none;
+  border-radius: 5px;
 }
 
 .contact-me {
