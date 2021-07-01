@@ -10,6 +10,9 @@ body {
 }
 
 header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #2a5006;
@@ -17,16 +20,24 @@ header {
 }
 
 h1 {
-  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  font-size: 48px;
 }
 
 /* Site nav */
+/* Need to change to flex box */
 nav {
-  float: right;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
+  font-size: 40px;
+  margin-left: 300px;
 }
-  
+
 li {
   display: inline-block;
   padding: 20px;
@@ -79,10 +90,12 @@ main {
 
 h2 {
   text-align: center;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 900;
 }
 
 .my-projects {
-  
   flex: 70%;
   background-color: lightgray;
   padding: 20px;
