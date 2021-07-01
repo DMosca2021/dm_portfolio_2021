@@ -221,6 +221,7 @@ aside {
 /* Form */
 h5 {
   font-size: 25px;
+  font-weight: bolder;
   text-align: center;
 }
 
@@ -229,9 +230,9 @@ form {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 350px;
+  width: 450px;
   padding: 5px;
-  border: 5px solid red;
+  border: 3px dashed black;
   border-radius: 20px;
 }
   
@@ -256,11 +257,13 @@ textarea {
 .cntctbttn {
   height: 40px;
   width: 80px;
-  background-color: red;
+  background-color: gray;
   color: black;
   font-weight: bold;
   border-style: none;
   border-radius: 5px;
+  margin-left: 5px;
+  border-style: inset;
 }
 
 .contact-me {
