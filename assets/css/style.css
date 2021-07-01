@@ -1,244 +1,250 @@
 /* Universal Selector */
 * {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-  }
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 
 body {
-    background-color: grey;
-  }
+  background-color: grey;
+}
 
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-  }
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2a5006;
+  color: #ffffff;
+}
 
 h1 {
-    margin: 20px;
-  }
+  margin: 20px;
+}
 
 /* Site nav */
 nav {
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
 }
   
 li {
-    display: inline-block;
-    padding: 20px;
-    text-decoration: none;
-    margin-left: 25px;
-  }
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  margin-left: 25px;
+}
   
 a {
-    text-decoration: none;
-    color: black;
-  }
+  text-decoration: none;
+  color: black;
+}
 
 
 /* Background pic and Profile pic */
 figure {
-    position: relative;
-    margin-left: 20px;
-    padding: 5px;
-  }
+  position: relative;
+  margin-left: 20px;
+  padding: 5px;
+}
 
-  .profpic {
-      position: absolute;
-      top: 0;
-      left: 0;
-      border-radius: 25px;
-      height: 500px;
-      border: 5px solid black;
-      box-shadow: 10px 10px 25px black;
-      margin-top: 25px;
-      margin-left: 25px;
-  }
+.profpic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 25px;
+  height: 500px;
+  border: 5px solid black;
+  box-shadow: 10px 10px 25px black;
+  margin-top: 25px;
+  margin-left: 25px;
+}
 
-  .natpic {
-      position: relative;
-      max-width: 85%;
-      height: auto;
-      opacity: .5;
-      border-radius: 5px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-left: 100px;
-      border-style: inset;
+.natpic {
+  position: relative;
+  max-width: 85%;
+  height: auto;
+  opacity: .5;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+  border-style: inset;
   }
 
 /* My projects section */
 main {
-    display: flex;
+  display: flex;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .my-projects {
-    flex: 70%;
-    background-color: lightgray;
-    padding: 20px;
-    margin-left: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-  }
+  
+  flex: 70%;
+  background-color: lightgray;
+  padding: 20px;
+  margin-left: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
 
 .button {
-    height: 100px;
-    width: 200px;
-    color: black;
-    border-style: outset;
-    border-width: 5px;
-    border-radius: 5px;
-    border-color: gray;
-  }
+  color: black;
+  border-style: outset;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: gray;
+}
+
+#button {
+  border-style: outset;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: gray;
+}
 
 /* About me sidebar part of main section */
 h3 {
-    color: grey;
-    font-size: 40px;
-    font-weight: 900;
+  color: grey;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 h4 {
-    font-size: 20px;
-    padding: 5px;
+  font-size: 20px;
+  padding: 5px;
 }
 
 aside {
-    flex: 30%;
-    background-color: #b9c6ae;
-    padding: 20px;
-    margin-right: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    flex-wrap: wrap;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+  flex: 30%;
+  background-color: #b9c6ae;
+  padding: 20px;
+  margin-right: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .career-hist h4 {
-    margin-bottom: 10px;
-    text-align: center;
-  }
+  margin-bottom: 10px;
+  text-align: center;
+}
 
 .career-hist {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .career-hist .career-txt {
-    display: none;
-    padding: 1% 0;
+  display: none;
+  padding: 1% 0;
 }
 
 .career-hist:hover .career-txt {
-    display: block;
-    border: 1px solid black;
-    box-shadow: 5px 5px 5px grey;
+  display: block;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .intrests h4 {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .intrests {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .intrests .intrests-txt {
-    display: none;
-    padding: 1% 0;
+  display: none;
+  padding: 1% 0;
 }
 
 .intrests:hover .intrests-txt {
-    display: block;
-    border: 1px solid black;
-    box-shadow: 5px 5px 5px grey;
+  display: block;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .goals h4 {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .goals {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .goals .goals-txt {
-    display: none;
-    padding: 1% 0;
+  display: none;
+  padding: 1% 0;
 }
 
 .goals:hover .goals-txt {
-    display: block;
-    border: 1px solid black;
-    box-shadow: 5px 5px 5px grey;
+  display: block;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px grey;
 }
 
 /* Form */
 h5 {
-    margin-left: 50px;
-    font-size: 25px;
+  margin-left: 50px;
+  font-size: 25px;
 }
 
 form {
-    display: inline-block;
-    margin: 0 auto;
-    width: 350px;
-    padding: 5px;
-    border: 5px solid red;
-    border-radius: 20px;
-  }
+  display: inline-block;
+  margin: 0 auto;
+  width: 350px;
+  padding: 5px;
+  border: 5px solid red;
+  border-radius: 20px;
+}
   
 label {
-    display: inline-block;
-    width: 100px;
-    font-size: 16px;
-  }
+  display: inline-block;
+  width: 100px;
+  font-size: 16px;
+}
     
 input, 
 textarea {
-    box-sizing: border-box;
-    width: 200px;
-    border: 1px solid #4F4846;
-  }
+  box-sizing: border-box;
+  width: 200px;
+  border: 1px solid #4F4846;
+}
   
 textarea {
-    vertical-align: top;
-    height: 30px;
-  }
+  vertical-align: top;
+  height: 30px;
+}
     
 .cntctbttn {
-    height: 20px;
-    width: 80px;
-    background-color: red;
-    color: black;
-    font-weight: bold;
-    border-style: none;
-  }
+  height: 20px;
+  width: 80px;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  border-style: none;
+}
 /* Form End */
 
 .contact-me {
-    background-color:lightgray;
-    border-radius: 20px;
+  background-color:lightgray;
+  border-radius: 20px;
 }
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
-  }
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
 
 
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
