@@ -51,7 +51,12 @@ li {
   flex-wrap: wrap;
   text-decoration: none;
 }
-  
+
+.navlst {
+  text-decoration: underline;
+  padding: 15px;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -104,6 +109,13 @@ h2 {
   border-radius: 25px;
 }
 
+.prjlst{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
 .my-projects {
   flex: 70%;
   background-color: lightgray;
@@ -116,9 +128,13 @@ h2 {
 .button {
   color: black;
   border-style: outset;
-  border-width: 5px;
+  border-width: 6px;
   border-radius: 5px;
   border-color: gray;
+}
+
+.button:hover {
+  border-color: gold;
 }
 
 #button {
