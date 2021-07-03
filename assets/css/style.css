@@ -17,6 +17,8 @@ header {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #2a5006;
   color: #ffffff;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 h1 {
@@ -32,18 +34,22 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 40px;
   font-weight: bolder;
-  margin-left: 500px;
+}
+
+.sitenav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 li {
-  display: inline-block;
-  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   text-decoration: none;
-  margin-left: 25px;
 }
   
 a {
@@ -301,4 +307,19 @@ footer {
       background-color: #8ac4ff;
     }
   }
-   */ 
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+   
