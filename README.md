@@ -15,7 +15,7 @@ This projects goal was to showcase my understanding of advanced CSS concepts. Th
 
 ## To view the website 
 Click on provided links:
-- [Deployed URL]()
+- [Deployed URL](https://dmosca2021.github.io/dm_portfolio_2021)
 - [Repo URL](https://github.com/DMosca2021/dm_portfolio_2021)
 
 ## Example of website
