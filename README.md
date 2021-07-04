@@ -29,3 +29,5 @@ Website can be viewed in a typical desktop web browser. It is responsive to scre
 Credit for this project goes to my instructor, teachers assistant, and fellow students in the DUbootcamp who provided the information and resources I needed to complete this task.
 
 - [Professional README guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+- [W3 Schools CSS Buttons](https://www.w3schools.com/css/css3_buttons.asp)
+- [W3 Schools Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
