@@ -172,11 +172,19 @@ aside {
 
 /* Career goals aside behavior */
 .career-hist h4 {
+  margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
   padding-bottom: 25px;
 }
 
+.career-hist h4:hover {
+  background-color:grey;
+  border-radius: 25px;
+  border-style: dashed;
+  border-color: black;
+  opacity: 50%;
+}
 .career-hist {
   margin-bottom: 10px;
   text-align: center;
@@ -201,6 +209,14 @@ aside {
   padding: 10px;
 }
 
+.intrests h4:hover {
+  background-color:grey;
+  border-radius: 25px;
+  border-style: dashed;
+  border-color: black;
+  opacity: 50%;
+}
+
 .intrests {
   margin-bottom: 10px;
   text-align: center;
@@ -222,6 +238,14 @@ aside {
   margin-bottom: 10px;
   text-align: center;
   padding-top: 25px;
+}
+
+.goals h4:hover {
+  background-color:grey;
+  border-radius: 25px;
+  border-style: dashed;
+  border-color: black;
+  opacity: 50%;
 }
 
 .goals {
