@@ -15,14 +15,14 @@ This projects goal was to showcase my understanding of advanced CSS concepts. Th
 
 ## To view the website 
 Click on provided links:
-- [Deployed URL](https://dmosca2021.github.io/dm-hwk-wk1-refactor/#social-media-marketing)
-- [Repo URL](https://github.com/DMosca2021/dm-hwk-wk1-refactor)
+- [Deployed URL]()
+- [Repo URL]()
 
 ## Example of website
-Website can be viewed in a typical desktop web browser. Currently the site does not support smaller resolutions.
+Website can be viewed in a typical desktop web browser. It is responsive to screens as small as 576px. 
 
     
-![Screenshot](assets/images/screenshot.png)
+![Screenshot](./assets/images/portfolio_scrnsht.png)
 
 
 ## Credits
